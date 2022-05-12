@@ -1,0 +1,222 @@
+{
+  "text": {
+    "documentTitleText": "Calculate multiple dwellings relief",
+    "subheader": "Land Transaction Tax",
+    "header": "Calculate multiple dwellings relief",
+    "previous": "Back",
+    "next": "Next",
+    "restart": "Start again",
+    "calculate": "Calculate your tax",
+    "transactionRate": {
+      "title": "Will you need to pay the higher rate?",
+      "description": "You'll need to pay the higher rate if you'll own more than one residential property or are buying as a company. Find more information on when you need to pay the higher rate in our <a href=\"https://gov.wales/higher-rates-land-transaction-tax-guide\" target=\"_blank\" rel=\"noreferrer\">higher rates guide</a>.",
+      "validation": "Select a higher rates residential option.",
+      "answers": [
+        {
+          "value": "HigherRates",
+          "label": "Yes"
+        },
+        {
+          "value": "MainRates",
+          "label": "No"
+        }
+      ]
+    },
+    "transactionDate": {
+      "title": "What is the effective date?",
+      "description": "This is usually the completion date. We use the rates and bands on this date for the calculation.",
+      "checkbox": "Use today's date for a tax estimate if you do not know the date yet",
+      "placeholder": "DD/MM/YYYY",
+      "validation": {
+        "invalidDate": "Enter a valid date.",
+        "preLtt": "This date must not be before 1 April 2018. Land Transaction Tax replaced Stamp Duty Land Tax in Wales from 1 April 2018."
+      }
+    },
+    "considerationDwellings": {
+      "title": "How much of the purchase price paid was for the dwellings?",
+      "description": "This is the total amount paid less any amount paid for other land or properties that are not considered dwellings as part of this purchase.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "numberOfDwellings": {
+      "title": "How many dwellings have you purchased?",
+      "description": "This is the total number of dwellings bought as part of this purchase.",
+      "validation": {
+        "invalidNumber": "Enter a valid number.",
+        "aboveMax": "The number must not exceed 999,999,999,999",
+        "belowMin": "The number must not be less than 2"
+      }
+    },
+    "isSubsidiaryDwelling": {
+      "title": "Have you purchased any subsidiary dwellings?",
+      "description": "These are additional dwellings that are within the same building or in the grounds of the other dwelling (the 'main dwelling'), and the amount given, based on a just and reasonable apportionment for the main dwelling is more than 2 thirds of the total amount given for all the dwellings.",
+      "answers": [
+        {
+          "value": "True",
+          "label": "Yes"
+        },
+        {
+          "value": "False",
+          "label": "No"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select an option."
+      }
+    },
+    "numberOfSubsidiaryDwellings": {
+      "title": "How many subsidiary dwellings have you purchased?",
+      "description": "This would be the number of additional dwellings that sit within the same building or grounds of the main dwelling purchased.",
+      "validation": {
+        "invalidNumber": "Enter a valid number.",
+        "aboveMax": "The number must not exceed 999,999,999,999"
+      }
+    },
+    "considerationSubsidiaryDwellings": {
+      "title": "How much of the purchase price paid was for the subsidiary dwellings?",
+      "description": "This is the amount given for the subsidiary dwellings based on a just and reasonable apportionment of the total amount given for all dwellings. The amount stated should be no more than 1 third of the total amount given for all the dwellings.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "isOtherLand": {
+      "title": "Have you purchased other land or properties other than dwellings?",
+      "description": "This would include any other land or properties bought as part of this purchase, but would not include any garden or grounds of the dwellings.",
+      "answers": [
+        {
+          "value": "True",
+          "label": "Yes"
+        },
+        {
+          "value": "False",
+          "label": "No"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select an option."
+      }
+    },
+    "considerationOtherLand": {
+      "title": "How much of the purchase price paid was for other land or properties?",
+      "description": "This is the total amount paid less any amount paid for dwellings as part of this purchase.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "otherLandType": {
+      "title": "What type of other land have you purchased?",
+      "description": "Select what type of other land is being purchased with the dwellings.",
+      "answers": [
+        {
+          "value": "Residential",
+          "label": "Residential"
+        },
+        {
+          "value": "NonResidential",
+          "label": "Non-residential"
+        },
+        {
+          "value": "Mixed",
+          "label": "Mixed use"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select an option."
+      }
+    },
+    "isLinkedTransaction": {
+      "title": "Is this part of a linked transaction?",
+      "description": "Answer yes if this purchase forms part of or is connected to an earlier transaction between you and the same seller.",
+      "answers": [
+        {
+          "value": "True",
+          "label": "Yes"
+        },
+        {
+          "value": "False",
+          "label": "No"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select an option."
+      }
+    },
+    "considerationLinkedTransaction": {
+      "title": "How much of the purchase price paid was for the dwellings (this transaction only)?",
+      "description": "This is the amount paid for the dwellings in this transaction only and should not include any amount paid for dwellings in any earlier linked transaction.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "taxCalculation": {
+      "title": "Tax calculation",
+      "description": "Land Transaction Tax (LTT) is a self-assessed tax and therefore the Welsh Revenue Authority does not accept liability for the use by taxpayers or agents of this calculator.",
+      "calcResult": {
+        "totalTaxDue": "Total tax due",
+        "effectiveDate": "Effective date",
+        "totalPurchasePrice": "Total purchase price"
+      },
+      "answerSummary": {
+        "title": "Summary of your answers",
+        "transactionRate": "Higher rate",
+        "transactionDate": "Effective date",
+        "totalPurchasePrice": "Total purchase price",
+        "numberOfDwellings": "Number of dwellings",
+        "pricePerDwelling": "Purchase price per dwelling",
+        "edit": "Edit"
+      },
+      "calcBreakdown": {
+        "title": "Detailed calculation",
+        "description": "This is a breakdown of how the total amount of tax was calculated.",
+        "explanation": {
+          "stepOne": "Step one",
+          "pricePerDwelling": "The total purchase price divided by the number of dwellings is",
+          "breakdownTable": "The table below shows a breakdown of the",
+          "taxDuePerDwelling": "tax due per dwelling",
+          "stepTwo": "Step two",
+          "oneDwelling": "The 'tax due per dwelling' amount above is the tax due for 1 dwelling.",
+          "youArePurchasing": "You are purchasing",
+          "dwellings": "dwellings",
+          "soYour": "so your",
+          "totalTaxDue": "total tax due is",
+          "lessThanOnePercent": "Your 'tax due per dwelling' multiplied by the number of dwellings is less than 1% of the total purchase price.",
+          "therefore": "Therefore",
+          "payOnePercent": "you must pay 1% of the total purchase price",
+          "whichIs": "which is"
+        },
+        "tableHeaders": {
+          "priceBands": "Purchase price bands",
+          "percentageRate": "Percentage rate",
+          "amount": "Amount",
+          "taxDue": "Tax due"
+        },
+        "rowDescriptions": {
+          "upTo": "Up to",
+          "above": "Above",
+          "andUpTo": "and up to",
+          "basedOnPremium": "Tax based on total premium",
+          "basedOnNpv": "Tax based on total NPV"
+        },
+        "totalTaxDue": "Tax due per dwelling:",
+        "payLtt": {
+          "textP1": "If you buy these properties it's your responsibility to make sure you",
+          "linkText": "file and pay",
+          "textP2": "LTT.",
+          "link": "https://gov.wales/land-transaction-tax-guide",
+          "newTab": "Opens in a new tab"
+        }
+      },
+      "print": "Print or save",
+      "feedback": {
+        "text": "Tell us what you think of this calculator",
+        "link": "https://gov.wales/welsh-revenue-authority",
+        "newTab": "Opens in a new tab"
+      }
+    }
+  }
+}

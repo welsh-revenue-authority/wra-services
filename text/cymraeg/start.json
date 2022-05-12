@@ -1,0 +1,19 @@
+{
+  "startText": {
+    "beforeHeadingText": "Treth Trafodiadau Tir",
+    "headingText": "Gwasanaethau",
+    "lttCalculator": {
+      "linkText": "Cyfrifwch eich treth",
+      "text": "Defnyddiwch y gyfrifiannell hon i'ch helpu i weithio allan faint o Dreth Trafodiadau Tir (TTT) y bydd angen i chi ei dalu o bosib os fyddwch chi'n prynu eiddo neu dir yng Nghymru."
+    },
+    "rateChecker": {
+      "linkText": "Gwiriwr cyfradd uwch",
+      "text": "Gwiriwch a oes angen i chi dalu cyfradd uwch o Dreth Trafodiadau Tir."
+    },
+    "mdrCalculator": {
+      "linkText": "Calculate multiple dwellings relief",
+      "text": "Use this calculator to help you work out how much Land Transaction Tax (LTT) relief applies when you buy multiple dwellings in Wales."
+    },
+    "documentTitleText": "Adref - Gwasanaethau ACC"
+  }
+}
