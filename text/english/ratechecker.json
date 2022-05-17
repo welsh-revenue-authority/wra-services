@@ -1,0 +1,17 @@
+{
+  "rateCheckerText": {
+    "beforeHeadingText": "Land Transaction Tax",
+    "headingText": "Check if you need to pay a higher rate of Land Transaction Tax",
+    "needHelp": "Need help?",
+    "basedOnAnswers": "Results based on the following answers",
+    "validationText": "This question requires an answer.",
+    "previousButton": "Back",
+    "startAgainButton": "Start again",
+    "nextButton": "Next",
+    "helpGuidance": {
+      "helpLink": "https://gov.wales/higher-rates-land-transaction-tax-guide",
+      "helpText": "Need help?",
+      "newTab": "Opens in a new tab"
+    }
+  }
+}
