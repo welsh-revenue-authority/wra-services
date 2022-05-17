@@ -24,7 +24,7 @@
     },
     "transactionRate": {
       "title": "A fydd angen i chi dalu'r gyfradd uwch?",
-      "description": "Bydd angen i chi dalu'r gyfradd uwch os ydych yn berchen ar fwy nag un eiddo preswyl neu'n prynu fel cwmni. Mae rhagor o wybodaeth ynghylch pryd y bydd angen i chi dalu'r gyfradd uwch yn ein  <a href=\"https://llyw.cymru/canllaw-treth-trafodiadau-tir-ar-gyfraddau-uwch\" target=\"_blank\" rel=\"noreferrer\"> canllaw cyfraddau uwch</a>.",
+      "description": "Bydd angen i chi dalu'r gyfradd uwch os ydych yn berchen ar fwy nag un eiddo preswyl neu'n prynu fel cwmni. Mae rhagor o wybodaeth ynghylch pryd y bydd angen i chi dalu'r gyfradd uwch yn ein  <a href=\"https://llyw.cymru/canllaw-treth-trafodiadau-tir-ar-gyfraddau-uwch\" target=\"_blank\" rel=\"noreferrer\"> canllaw cyfraddau uwch </a>.",
       "validation": "Dewiswch opsiwn cyfraddau preswyl uwch.",
       "answers": [
         {
@@ -246,6 +246,11 @@
         "link": "https://surveys.wra.gov.wales/s/Y2OC1/?lang=405073",
         "newTab": "Yn agor mewn tab newydd"
       }
+    },
+    "helpGuidance": {
+      "helpLink": "https://llyw.cymru/treth-trafodiadau-tir-canllaw",
+      "helpText": "Angen cymorth?",
+      "newTab": "Yn agor mewn tab newydd"
     }
   }
 }

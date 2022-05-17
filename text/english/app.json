@@ -6,15 +6,14 @@
       "acceptCookiesText": "Accept cookies",
       "setCookiePrefText": "Change cookie settings",
       "cookieAlertTextP1": "You've accepted all cookies. You can",
-      "cookieAlertLinkText": "change your cookie settings",
+      "cookieAlertLinkText": "change your cookie preferences",
       "cookieAlertTextP2": "at any time."
     },
     "feedbackControl": {
       "feedbackTextP1": "This is an updated tool.",
       "feedbackLink": "https://surveys.wra.gov.wales/s/Y2OC1/",
       "feedbackLinkText": "Give feedback",
-      "feedbackTextP2": "to help improve it.",
-      "newTab": "Opens in a new tab"
+      "feedbackTextP2": "to help improve it."
     },
     "breadcrumbs": [
       {
@@ -31,13 +30,13 @@
     "wraLogo": {
       "logoLinkText": "Go to the main Welsh Revenue Authority site",
       "logoAltText": "Welsh Revenue Authority Logo",
-      "logoFilePath": "img/wra-logo-english.svg",
+      "logoFilePath": "/img/wra-logo-english.svg",
       "logoHref": "https://gov.wales/welsh-revenue-authority"
     },
     "wgLogo": {
       "logoLinkText": "Go to the main Welsh Government site",
       "logoAltText": "Welsh Government Logo",
-      "logoFilePath": "img/wg-logo-black.svg",
+      "logoFilePath": "/img/wg-logo-black.svg",
       "logoHref": "https://gov.wales/"
     },
     "footer": {
@@ -51,16 +50,9 @@
       "privacyText": "Privacy policy",
       "termsLink": "https://gov.wales/welsh-revenue-authority/online-services-terms-and-conditions",
       "termsText": "Terms and conditions",
-      "primaryLink": {
-        "lttLink": "https://gov.wales/land-transaction-tax-guide",
-        "lttText": "Land Transaction Tax guidance",
-        "hrcLink": "https://gov.wales/higher-rates-land-transaction-tax-guide",
-        "hrcText": "Higher rates of Land Transaction Tax guidance",
-        "mdrLink": "https://gov.wales/land-transaction-tax-relief-multiple-dwellings-guide",
-        "mdrText": "Land Transaction Tax relief for multiple dwellings guidance",
-        "defaultLink": "https://gov.wales/welsh-revenue-authority",
-        "defaultText": "Welsh Revenue Authority"
-      }
+      "goToWGLink": "https://gov.wales/",
+      "goToWGText": "Go to the main",
+      "goToWGBoldText": "Welsh Government site"
     }
   }
 }

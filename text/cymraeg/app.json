@@ -6,15 +6,14 @@
       "acceptCookiesText": "Derbyn cwcis",
       "setCookiePrefText": "Newid gosodiadau cwcis",
       "cookieAlertTextP1": "Rydych wedi derbyn pob cwci. Gallwch",
-      "cookieAlertLinkText": "newid eich gosodiadau cwcis",
+      "cookieAlertLinkText": "newid eich dewisiadau cwcis",
       "cookieAlertTextP2": "unrhyw bryd."
     },
     "feedbackControl": {
       "feedbackTextP1": "Offeryn wedi'i ddiweddaru yw hwn.",
       "feedbackLink": "https://surveys.wra.gov.wales/s/Y2OC1/?lang=405073",
       "feedbackLinkText": "Rhowch adborth",
-      "feedbackTextP2": "i helpu i'w wella.",
-      "newTab": "Yn agor mewn tab newydd"
+      "feedbackTextP2": "i helpu i'w wella."
     },
     "breadcrumbs": [
       {
@@ -31,13 +30,13 @@
     "wraLogo": {
       "logoLinkText": "Ewch i brif safle Awdurdod Cyllid Cymru",
       "logoAltText": "Logo Awdurdod Cyllid Cymru",
-      "logoFilePath": "img/wra-logo-welsh.svg",
+      "logoFilePath": "/img/wra-logo-welsh.svg",
       "logoHref": "https://llyw.cymru/awdurdod-cyllid-cymru"
     },
     "wgLogo": {
       "logoLinkText": "Ewch i brif safle Llywodraeth Cymru",
       "logoAltText": "Logo Llywodraeth Cymru",
-      "logoFilePath": "img/wg-logo-black.svg",
+      "logoFilePath": "/img/wg-logo-black.svg",
       "logoHref": "https://llyw.cymru/"
     },
     "footer": {
@@ -51,16 +50,9 @@
       "privacyText": "Polisi preifatrwydd",
       "termsLink": "https://llyw.cymru/awdurdod-cyllid-cymru/telerau-ac-amodau-gwasanaethau-ar-lein",
       "termsText": "Telerau ac amodau",
-      "primaryLink": {
-        "lttLink": "https://llyw.cymru/treth-trafodiadau-tir-canllaw",
-        "lttText": "Canllawiau Treth Trafodiaethau Tir",
-        "hrcLink": "https://llyw.cymru/canllaw-treth-trafodiadau-tir-ar-gyfraddau-uwch",
-        "hrcText": "Canllawiau Cyfraddau uwch y Dreth Trafodiadau Tir",
-        "mdrLink": "https://llyw.cymru/canllaw-rhyddhad-treth-trafodiadau-tir-ar-gyfer-anheddau-lluosog",
-        "mdrText": "Canllawiau Rhyddhad Treth Trafodiadau Tir ar gyfer anheddau lluosog",
-        "defaultLink": "https://llyw.cymru/awdurdod-cyllid-cymru",
-        "defaultText": "Awdurdod Cyllid Cymru"
-      }
+      "goToWGLink": "https://llyw.cymru/",
+      "goToWGText": "Mynd i brif safle",
+      "goToWGBoldText": "Llywodraeth Cymru"
     }
   }
 }

@@ -1,12 +1,17 @@
 {
   "rateCheckerText": {
     "beforeHeadingText": "Treth Trafodiadau Tir",
-    "headingText": "Gwiriwch a oes angen i chi dalu y cyfradd uwch",
+    "headingText": "Gwiriwch a oes angen i chi dalu cyfradd uwch o Dreth Trafodiad Tir",
     "needHelp": "Angen cymorth?",
     "basedOnAnswers": "Canlyniadau yn seiliedig ar yr atebion canlynol",
     "validationText": "Mae angen ateb ar y cwestiwn hwn.",
     "previousButton": "Yn &ocirc;l",
     "startAgainButton": "Dechrau eto",
-    "nextButton": "Nesaf"
+    "nextButton": "Nesaf",
+    "helpGuidance": {
+      "helpLink": "https://llyw.cymru/canllaw-treth-trafodiadau-tir-ar-gyfraddau-uwch",
+      "helpText": "Angen cymorth?",
+      "newTab": "Yn agor mewn tab newydd"
+    }
   }
 }

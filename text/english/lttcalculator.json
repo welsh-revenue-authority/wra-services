@@ -246,6 +246,11 @@
         "link": "https://surveys.wra.gov.wales/s/Y2OC1/",
         "newTab": "Opens in a new tab"
       }
+    },
+    "helpGuidance": {
+      "helpLink": "https://gov.wales/land-transaction-tax-guide",
+      "helpText": "Need help?",
+      "newTab": "Opens in a new tab"
     }
   }
 }
