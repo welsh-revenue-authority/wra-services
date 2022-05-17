@@ -10,8 +10,8 @@
       "cookieAlertTextP2": "at any time."
     },
     "feedbackControl": {
-      "feedbackTextP1": "This is an updated tool.",
-      "feedbackLink": "https://surveys.wra.gov.wales/s/Y2OC1/",
+      "feedbackTextP1": "This is a new tool.",
+      "feedbackLink": "https://surveys.wra.gov.wales/s/MDRCalculatorFeedback/",
       "feedbackLinkText": "Give feedback",
       "feedbackTextP2": "to help improve it.",
       "newTab": "Opens in a new tab"

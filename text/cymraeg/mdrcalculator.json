@@ -35,6 +35,7 @@
     "considerationDwellings": {
       "title": "How much of the purchase price paid was for the dwellings?",
       "description": "This is the total amount paid less any amount paid for other land or properties that are not considered dwellings as part of this purchase.",
+      "hint": "Enter whole numbers only, do not include decimal points.",
       "validation": {
         "invalidPrice": "Enter a valid purchase price.",
         "aboveMax": "The purchase price must not exceed £999,999,999,999"
@@ -43,6 +44,7 @@
     "numberOfDwellings": {
       "title": "How many dwellings have you purchased?",
       "description": "This is the total number of dwellings bought as part of this purchase.",
+      "hint": "Enter whole numbers only.",
       "validation": {
         "invalidNumber": "Enter a valid number.",
         "aboveMax": "The number must not exceed 999,999,999,999",
