@@ -1,0 +1,180 @@
+{
+  "text": {
+    "documentTitleText": "Cyfrifo rhyddhad anheddau lluosog",
+    "subheader": "Treth Trafodiadau Tir",
+    "header": "Cyfrifo rhyddhad anheddau lluosog",
+    "previous": "Yn ôl",
+    "next": "Nesaf",
+    "restart": "Dechrau eto",
+    "calculate": "Cyfrifo'ch treth",
+    "isOtherLand": {
+      "title": "Have you purchased other land or properties other than dwellings?",
+      "description": "This would include any other land or properties bought as part of this purchase, but would not include any garden or grounds of the dwellings.",
+      "answers": [
+        {
+          "value": "True",
+          "label": "Yes"
+        },
+        {
+          "value": "False",
+          "label": "No"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select an other land or properties option."
+      }
+    },
+    "considerationOtherLand": {
+      "title": "How much of the purchase price paid was for other land or properties?",
+      "description": "This is the total amount paid less any amount paid for dwellings as part of this purchase.",
+      "hint": "Enter whole numbers only, do not include decimal points.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "otherLandType": {
+      "title": "What type of other land have you purchased?",
+      "description": "Select what type of other land is being purchased with the dwellings.",
+      "answers": [
+        {
+          "value": "Residential",
+          "label": "Residential"
+        },
+        {
+          "value": "NonResidential",
+          "label": "Non-residential"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select a type of other land."
+      }
+    },
+    "transactionRate": {
+      "title": "Will you need to pay the higher rate?",
+      "descriptionOne": "If you're an individual it's expected that the higher rates will apply to a purchase where there's more than one dwelling, unless the purchase is of mixed use or the subsidiary dwelling exception at",
+      "linkText": "LTTA/8080 technical guidance",
+      "link": "https://gov.wales/higher-rates-purchases-residential-property-technical-guidance#section-5219",
+      "newTab": "Opens in a new tab",
+      "descriptionTwo": "applies.",
+      "descriptionThree": "If you're a company, the higher rates will apply unless the purchase is of mixed use.",
+      "validation": "Select a higher rates residential option.",
+      "answers": [
+        {
+          "value": "HigherRates",
+          "label": "Yes"
+        },
+        {
+          "value": "MainRates",
+          "label": "No"
+        }
+      ]
+    },
+    "transactionDate": {
+      "title": "Beth yw'r dyddiad dod i rym?",
+      "description": "Dyma'r dyddiad cwblhau fel arfer. Rydym yn defnyddio'r cyfraddau a'r bandiau ar y dyddiad hwn ar gyfer y cyfrifiad.",
+      "checkbox": "Defnyddiwch ddyddiad heddiw ar gyfer amcangyfrifiad o'r dreth os nad ydych yn gwybod y dyddiad eto",
+      "placeholder": "DD/MM/BBBB",
+      "validation": {
+        "invalidDate": "Rhowch ddyddiad dilys. Y fformat disgwyliedig yw DD/MM/BBBB, rhaid defnyddio sero arweiniol os yw'n berthnasol.",
+        "preLtt": "Rhaid i'r dyddiad hwn beidio â bod cyn 1 Ebrill 2018. Disodlodd y Dreth Trafodiadau Tir Treth Dir y Dreth Stamp yng Nghymru o 1 Ebrill 2018."
+      }
+    },
+    "considerationDwellings": {
+      "title": "Faint o'r pris prynu a dalwyd oedd am yr anheddau?",
+      "description": "Dyma'r cyfanswm a dalwyd llai unrhyw swm a dalwyd am dir neu eiddo arall nad ydynt yn cael eu hystyried yn anheddau fel rhan o'r pryniant hwn.",
+      "hint": "Rhowch rifau cyfan yn unig, peidiwch â chynnwys pwyntiau degol.",
+      "validation": {
+        "invalidPrice": "Rhowch bris prynu dilys.",
+        "aboveMax": "Ni ddylai'r pris prynu fod yn fwy na £999,999,999,999"
+      }
+    },
+    "numberOfDwellings": {
+      "title": "Faint o anheddau ydych chi wedi'u prynu?",
+      "description": "Dyma gyfanswm nifer yr anheddau a brynwyd fel rhan o'r pryniant hwn.",
+      "hint": "Rhowch rifau cyfan yn unig.",
+      "validation": {
+        "invalidNumber": "Rhowch rif dilys.",
+        "aboveMax": "Ni ddylai'r nifer fod yn fwy na 999,999,999,999",
+        "belowMin": "Ni ddylai'r nifer fod yn llai na 2"
+      }
+    },
+    "taxCalculation": {
+      "title": "Cyfrifiad treth",
+      "description": "Mae'r Dreth Trafodiadau Tir (TTT) yn dreth hunanasesu ac felly nid yw Awdurdod Cyllid Cymru yn derbyn unrhyw atebolrwydd am ddefnydd y gyfrifiannell hon gan drethdalwyr neu asiantau.",
+      "calcResult": {
+        "totalTaxDue": "Cyfanswm y dreth sy'n ddyledus",
+        "effectiveDate": "Dyddiad dod i rym",
+        "totalPurchasePrice": "Cyfanswm y pris prynu"
+      },
+      "answerSummary": {
+        "title": "Crynodeb o'ch atebion",
+        "isOtherLand": "Other land",
+        "considerationOtherLand": "Purchase price for other land",
+        "otherLandType": "Other land type",
+        "transactionRate": "Cyfradd uwch",
+        "transactionDate": "Dyddiad dod i rym",
+        "considerationDwellings": "Cyfanswm pris prynu",
+        "numberOfDwellings": "Nifer o anheddau",
+        "edit": "Golygu"
+      },
+      "calcBreakdown": {
+        "title": "Cyfrifiad manwl",
+        "description": "Mae hwn yn ddadansoddiad o sut y cyfrifwyd cyfanswm y dreth.",
+        "explanation": {
+          "stepOne": "Cam un",
+          "pricePerDwelling": "Cyfanswm y pris prynu wedi'i rannu â nifer yr anheddau yw",
+          "breakdownTable": "Mae'r tabl isod yn dangos dadansoddiad o'r ",
+          "taxDuePerDwelling": "dreth sy'n ddyledus fesul annedd",
+
+          "stepTwo": "Cam dau",
+          "oneDwelling": "Y swm 'treth sy'n ddyledus fesul annedd' uchod yw'r dreth sy'n ddyledus ar gyfer 1 annedd.",
+          "youArePurchasing": "Rydych yn prynu",
+          "dwellings": "o anheddau",
+          "soYour": "felly",
+          "taxDueOnDwellings": "cyfanswm y dreth sy'n ddyledus gennych yw",
+
+          "stepThree": "Cam tri",
+
+          "lessThanOnePercent": "Mae eich 'treth sy'n ddyledus fesul annedd' wedi'i luosi â nifer yr anheddau yn llai nag 1% o gyfanswm y pris prynu",
+          "therefore": "Felly",
+          "payOnePercent": "rhaid i chi dalu 1% o gyfanswm y pris prynu",
+          "whichIs": "sef"
+        },
+        "tableHeaders": {
+          "priceBands": "Bandiau pris prynu",
+          "percentageRate": "Cyfradd ganrannol",
+          "amount": "Swm",
+          "taxDue": "Treth sy'n ddyledus",
+          "type": "Math",
+          "totalAmount": "Cyfanswm a nodwyd"
+        },
+        "rowDescriptions": {
+          "upTo": "Hyd at",
+          "above": "Mwy na",
+          "andUpTo": "a hyd at",
+          "basedOnDwellings": "Treth yn seiliedig ar gyfanswm premiwm",
+          "basedOnOtherLand": "Treth yn seiliedig ar gyfanswm GNP"
+        },
+        "taxDuePerDwelling": "Treth sy'n ddyledus fesul annedd:",
+        "taxDueTotalPurchasePrice": "Tax due on total purchase price:",
+        "subTotalCalcTitle": "Treth yn daladwy",
+        "subTotalCalcDescr": "Dyma ddadansoddiad o gyfrifiadau'r is-gyfansymiau.",
+        "totalTaxDue": "Cyfanswm y dreth sy'n ddyledus:",
+        "payLtt": {
+          "textP1": "Os ydych yn prynu'r eiddo hyn eich cyfrifoldeb chi yw sicrhau eich bod yn",
+          "linkText": "ffeilio ac yn talu",
+          "textP2": "TTT.",
+          "link": "https://llyw.cymru/treth-trafodiadau-tir-canllaw",
+          "newTab": "Yn agor mewn tab newydd"
+        }
+      },
+      "print": "Argraffu neu arbed",
+      "feedback": {
+        "text": "Rhowch eich barn am y gyfrifiannell hon",
+        "link": "https://surveys.wra.gov.wales/s/MDRCalculatorFeedback/?lang=670133",
+        "newTab": "Yn agor mewn tab newydd"
+      }
+    }
+  }
+}
